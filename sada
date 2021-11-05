@@ -1,0 +1,159 @@
+  <div id="contact-area">
+            <div class="container">
+                <div class="row">
+                   <div class="col-md-12">
+                     <div class="col-md-4 contact-box"></div><hr>
+                     <p><span class="contact-title">Venha conhecer:</span>Rua Lorem Ipsum - 1314</p>
+                     <p><span class="contact-title">Envie um e-mail:</span>hormomix@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="copy-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Desenvolvido por <a href="sobre.html">HormoMix</a> &copy; 2021</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        nav
+{
+    position: absolute;
+    top: 70px;
+    right: 0;
+    left: 0;
+    width: 319px;
+    display: table;
+    margin: 0 auto;
+    transform: translateY(-50%);
+    border-bottom: 1px solid gray;
+    
+}
+
+nav a
+{
+    position: relative;
+    width: 33.333%;
+    display: table-cell;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: 0.2s ease color;
+}
+
+nav a:before, nav a:after
+{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 0.2s ease transform;
+}
+
+nav a:before
+{
+    top: 0;
+    left: 10px;
+    width: 6px;
+    height: 6px;
+}
+
+nav a:after
+{
+    top: 5px;
+    left: 18px;
+    width: 4px;
+    height: 4px
+}
+
+nav a:nth-child(1):before
+{
+    background-color: yellow;
+}
+
+nav a:nth-child(1):after
+{
+    background-color: red;
+}
+
+nav a:nth-child(2):before
+{
+    background-color: #00e2ff;
+}
+
+nav a:nth-child(2):after
+{
+    background-color: #89ff00;
+}
+
+nav a:nth-child(3):before
+{
+    background-color: purple;
+}
+
+nav a:nth-child(3):after
+{
+    background-color: palevioletred;
+}
+
+
+
+nav a:hover
+{
+    color: rgb(233, 130, 45);
+}
+
+nav a:hover:before, nav a:hover:after
+{
+    transform: scale(1);
+}
+
+
+
+#ytd-url {
+  display: block;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 10px 14px;
+  margin: 20px;
+  color: #fff;
+  font-family: Arial;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: #000;
+  border-radius: 4px;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.3);
+  z-index: 125;
+}
+ <header>
+       
+    
+    <div class="container">
+        <header>
+            <nav>
+                <div class="nav-container">
+                    <a href="#">
+                        <img id="logo" src="https://image.flaticon.com/icons/png/512/4145/4145000.png" alt="HORMOMIX">
+                    </a>
+                    <i class="fas fa-bars btn-menumobile"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="#">QUIZ</a></li>
+                        <li><a href="sobre.html">SOBRE</a></li>
+                        <li><a href="TEXTO.html">TEXTO C.</a></li>
+                    </ul>
+                </div>
+            </nav>
+   </header> 
+    

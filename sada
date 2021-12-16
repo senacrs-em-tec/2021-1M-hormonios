@@ -1,23 +1,4 @@
-  <div id="contact-area">
-            <div class="container">
-                <div class="row">
-                   <div class="col-md-12">
-                     <div class="col-md-4 contact-box"></div><hr>
-                     <p><span class="contact-title">Venha conhecer:</span>Rua Lorem Ipsum - 1314</p>
-                     <p><span class="contact-title">Envie um e-mail:</span>hormomix@gmail.com</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="copy-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <p>Desenvolvido por <a href="sobre.html">HormoMix</a> &copy; 2021</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+  =
 
 
 
@@ -136,24 +117,17 @@ nav a:hover:before, nav a:hover:after
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.3);
   z-index: 125;
 }
- <header>
-       
+
     
-    <div class="container">
-        <header>
-            <nav>
-                <div class="nav-container">
-                    <a href="#">
-                        <img id="logo" src="https://image.flaticon.com/icons/png/512/4145/4145000.png" alt="HORMOMIX">
-                    </a>
-                    <i class="fas fa-bars btn-menumobile"></i>
-                    <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="#">QUIZ</a></li>
-                        <li><a href="sobre.html">SOBRE</a></li>
-                        <li><a href="TEXTO.html">TEXTO C.</a></li>
-                    </ul>
-                </div>
-            </nav>
-   </header> 
-    
+   text-shadow: 0 1px 0 #ccc,
+0 2px 0 #c9c9c9,
+0 3px 0 #bbb,
+0 4px 0 #b9b9b9,
+0 5px 0 #aaa,
+0 6px 1px rgba(0,0,0,.1),
+0 0 5px rgba(0,0,0,.1),
+0 1px 3px rgba(0,0,0,.3),
+0 3px 5px rgba(0,0,0,.2),
+0 5px 10px rgba(0,0,0,.25),
+0 10px 10px rgba(0,0,0,.2),
+0 20px 20px rgba(0,0,0,.15);

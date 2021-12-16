@@ -1,0 +1,70 @@
+/* body*/
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	margin: 0;
+background-color:#5b90c2 ;
+}
+
+
+
+
+
+/* nav*/
+
+	
+	
+
+nav a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family:'Fuzzy Bubbles', cursive ;
+   }
+   nav a:hover{
+       color: #F588C9;
+   }
+       
+   .life{
+       font-size: 35px;
+       color: #F588C9;
+   }
+   
+     
+   
+  
+   
+
+   
+   /* main*/
+   
+   
+   h1{
+       text-align: center;
+       font-family:'Fuzzy Bubbles', cursive ;
+       color: rgb(0, 0, 0);
+    
+   }
+   p{
+       color: white;
+       font-family: 'Fuzzy Bubbles', cursive;
+       text-align: center;
+
+   }
+   h3{
+       color: rgb(0, 0, 0);
+       font-family: 'Fuzzy Bubbles', cursive;
+       text-align: center;
+   }
+   /* footer*/
+   .footer {
+       display: block;
+       margin-top: 5%;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       text-align: center;
+       border-bottom:solid 1px white;
+     }

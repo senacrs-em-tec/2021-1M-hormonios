@@ -1,5 +1,5 @@
 /* body*/
-
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
 html {
 	font-family: 'Open Sans', sans-serif;
 }
@@ -13,95 +13,19 @@ background-color: #5b90c2
 
 
 /* nav*/
-.container {
-	max-width: 1920px;
-	width: 100%;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-    position: fixed;
-	top: 0;
-	left: 0;
-	height: 100px;
-	width: 100%;
-	z-index: 1;
-	background-color:#1b2949;
-	border-bottom: 1px solid #CCC;
-}
-
-nav:after {
-	clear: both;
-	content: "";
-	display: block;
-}
-
-.nav-container {
-	max-width: 1200px;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#logo {
-	width: 50px;
-	height: 50px;
-	margin-top: 25px;
-}
-
-.nav-container ul {
-	float: right;
-	height: 100px;
-	line-height: 100px;
-	margin: 0;
-}
-
-
-.nav-container ul li {
-	list-style: none;
-	float: left;
-	margin: 0 15px;
-}
-
-.nav-container li a {
-	text-decoration: none;
-	color: rgb(255, 255, 255);
-	transition: .5s;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
-}
-li {
-  text-align: center;
-  
-
-}
-
-
-
-
-.nav-container li a:hover {
-	color: rgb(0, 0, 0);
-    
-}
-
-* {
-  box-sizing: border-box;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.nav {
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  width: 100px;
-  backface-visibility: hidden;
-  
-  }
+nav a{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family:'Fuzzy Bubbles', cursive ;
+ }
+ nav a:hover{
+   color: #F588C9;
+ }
+   
+ .life{
+   font-size: 35px;
+   color: #F588C9;
+ }
    
 
   
@@ -111,7 +35,7 @@ ul {
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
  header{
-    position: fixed;
+    position: relative;
     width: 100%;
     height: 150px;
     margin: 0;
@@ -120,50 +44,11 @@ ul {
   }
   
 
-h3{
-    padding-top: 30%;
-    text-align:center;
-    color: #ffffff;
-    font: Bebas+Neue;
-    font-size: 40px;
-    letter-spacing: 0.0625em;
-    text-shadow: 0 1px 0 #ccc,
-0 2px 0 #c9c9c9,
-0 3px 0 #bbb,
-0 4px 0 #b9b9b9,
-0 5px 0 #aaa,
-0 6px 1px rgba(0,0,0,.1),
-0 0 5px rgba(0,0,0,.1),
-0 1px 3px rgba(0,0,0,.3),
-0 3px 5px rgba(0,0,0,.2),
-0 5px 10px rgba(0,0,0,.25),
-0 10px 10px rgba(0,0,0,.2),
-0 20px 20px rgba(0,0,0,.15);
-}
+
 h2{
   text-align:center;
   color: #ffffff;
-  font: Bebas+Neue;
-  font-size: 40px;
-  letter-spacing: 0.0625em;
-  text-shadow: 0 1px 0 #ccc,
-0 2px 0 #c9c9c9,
-0 3px 0 #bbb,
-0 4px 0 #b9b9b9,
-0 5px 0 #aaa,
-0 6px 1px rgba(0,0,0,.1),
-0 0 5px rgba(0,0,0,.1),
-0 1px 3px rgba(0,0,0,.3),
-0 3px 5px rgba(0,0,0,.2),
-0 5px 10px rgba(0,0,0,.25),
-0 10px 10px rgba(0,0,0,.2),
-0 20px 20px rgba(0,0,0,.15);
-}
-p{
-   position: fixed;
-    text-align: center;
-color: rgb(3, 1, 1);
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Fuzzy Bubbles', cursive;
 }
 
 
@@ -175,10 +60,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 @import url("//fonts.googleapis.com/css?family=Kaushan+Script&text=!");
 
 body {
-  min-height: 450px;
-  height: 100vh;
   margin: 0;
-
   
 }
 
@@ -186,7 +68,7 @@ body {
   height: 300px;
   width: 500px;
   margin: auto;
-  position: absolute;
+  position: relative;
   top: 0;
   right: 0;
   bottom: 0;
@@ -203,16 +85,16 @@ body {
   animation: ಠ_ಠ 5s infinite alternate ease-in-out -7.5s;
   animation-fill-mode: forwards;
   transform: rotateY(40deg) rotateX(33deg) translateZ(0);
+  
 }
 
 .layer:after {
-  font: 150px/0.65 "Pacifico", "Kaushan Script", Futura, "Roboto", "Trebuchet MS", Helvetica, sans-serif;
+  font: 100px/0.65 'Fuzzy Bubbles', cursive;
   content: "Hormo\a    Mix!";
   white-space: pre;
   text-align: center;
   height: 100%;
   width: 100%;
-  margin-top: -40px ;
   position: fixed;
   color: whitesmoke;
   letter-spacing: -2px;
@@ -305,7 +187,7 @@ body {
 }
 
 .layer:nth-child(n+11):after {
-  -webkit-text-stroke: 15px salmon;
+  -webkit-text-stroke: 15px #F588C9;
   text-shadow: 6px 0 6px #f1f0e8, 5px 5px 5px #ffffff, 0 6px 6px #f0efed;
 }
 
@@ -324,12 +206,13 @@ body {
 
 @keyframes ಠ_ಠ {
   100% {
-      transform: rotateY(-40deg) rotateX(-43deg);
+      transform: rotateY(-40deg) rotateX(-33deg);
   }
 }
 /* footer */
 .footer {
-  position: fixed;
+  display: block;
+  margin-top: 10%;
   left: 0;
   bottom: 0;
   width: 100%;
